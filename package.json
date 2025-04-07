@@ -65,5 +65,6 @@
     "test": "start-server-and-test test:serve http://localhost:3000 test:run",
     "test:serve": "pdftest serve 3000 ./test/reference/snapshot",
     "test:run": "npx karma start karma.conf.js"
-  }
+  },
+  "types": "type.d.ts"
 }
